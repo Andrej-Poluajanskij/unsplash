@@ -1,0 +1,51 @@
+.preload{
+    visibility: hidden;
+
+  .spring-spinner {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 36%;
+  }
+  .spring-spinner .spring-spinner-part {
+    overflow: hidden;
+    height: calc(100px / 2);
+    width: 100px;
+  }
+  .spring-spinner  .spring-spinner-part.bottom {
+     transform: rotate(180deg) scale(-1, 1);
+   }
+  .spring-spinner .spring-spinner-rotator {
+    width: 100px;
+    height: 100px;
+    border: calc(100px / 8) solid transparent;
+    border-color: #f3f3f3;
+    border-right-color: #6e7f9f;
+    border-top-color: #6e7f9f;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: spring-spinner-animation 3s ease-in-out infinite;
+    transform: rotate(-200deg);
+  }
+}
+  @keyframes spring-spinner-animation {
+    0% {
+      border-width: calc(100px / 8);
+    }
+    25% {
+      border-width: calc(100px / 23.33);
+    }
+    50% {
+      transform: rotate(115deg);
+      border-width: calc(100px / 8);
+    }
+    75% {
+      border-width: calc(100px / 23.33);
+    }
+    100% {
+      border-width: calc(100px / 8);
+    }
+  }

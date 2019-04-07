@@ -1,0 +1,4 @@
+This project placed in GitHub  version control platform. This is app which finds pictures by the words you entered.
+You could download this project in github or used in brouser by this link: "https://andrej-poluajanskij.github.io/unsplash/"
+When you open project in browser, write one or couple words in search field, which kind of pictures you want to find, after that, click search button and in short time the picture appears in the screen by the word you entered. New search of picture is possible to do without browser refresh. There are opportunity to save words, which you entered in search field, you just need to click save button and your saved search words appears on the right in the sceen. Mouse button click on the saved word appears picture by saved search word in the screen.
+Happy using!
